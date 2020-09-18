@@ -1,0 +1,28 @@
+{
+    "editor.formatOnSave": false,
+    "[json]": {
+      "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/htdocs/source/**": true,
+      "source.pixiv.net/htdocs/**/*": true,
+      "comic-api.pixiv.net/htdocs/**/*": true,
+      "p-point-api.pixiv.private/htdocs/**/*": true,
+      "admin.pixiv.net/htdocs/**/*": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/bundle": true,
+      "**/.cache": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+  }
