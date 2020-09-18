@@ -9,5 +9,8 @@ export default {
 
 
 export function MyButton () {
-    return <Button color='red'></Button>
+    return (<>
+      <Button color='red' />
+      <div>wassyoi</div>
+      </>)
 }
